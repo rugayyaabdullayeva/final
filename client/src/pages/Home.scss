@@ -1,0 +1,193 @@
+@media (min-width: 240px) and (max-width: 600px) {
+  #section1 {
+    width: 100%;
+  }
+  .hero-caption {
+    width: 100%;
+  }
+  img {
+    width: 100%;
+  }
+ .hero-caption-title{
+  font-size: 35px !important;
+  }
+  .hero-btn{
+    padding: 15px !important;
+    font-size: 14px !important;
+  }
+  .wrapper{
+    gap: 0 !important;
+  }
+  .hero-caption p {
+    font-size: 14px;
+  }
+}
+// !Section-1 Start
+#section1 {
+  background-color: #f0f0f2;
+  font-family: "Josefin Sans", sans-serif;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5.5rem;
+
+  h1 {
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 26px;
+    color: #0b1c39;
+  }
+
+  p {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: 400;
+    margin-bottom: 60px;
+    padding-right: 50px;
+  }
+}
+
+.hero-btn {
+  background-color: #4a4a4b;
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 20px 40px;
+  cursor: pointer;
+}
+
+.hero-btn:hover {
+  background-color: red;
+}
+
+//! NewProduct Start
+.newProduct {
+  padding: 200px 0;
+  font-family: "Josefin Sans", sans-serif;
+
+  h2 {
+    margin-bottom: 70px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    padding-left: 22px;
+  }
+}
+
+.product-img {
+  overflow: hidden;
+  margin-bottom: 30px;
+
+  img {
+    transform: scale(1);
+    transition: all 0.4s;
+  }
+}
+
+.product-caption {
+  h3 {
+    color: #444444;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+
+  span {
+    color: #ff2020;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+
+// ! Popular Items Start
+.popular-items {
+  h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1;
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+  p {
+    font-family: "Roboto", sans-serif;
+    color: #777;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+  }
+
+  .single-popular-items {
+    margin-bottom: 50px;
+
+    .popular-img {
+      overflow: hidden;
+      border-bottom: 3px solid #ff2020;
+      margin-bottom: 19px;
+      position: relative;
+    }
+  }
+}
+
+.popular-caption {
+  font-family: "Josefin Sans", sans-serif;
+  color: #444444;
+
+  h3 a {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+
+  span {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ff2020;
+  }
+}
+
+.room-btn {
+  padding-top: 70px;
+  a {
+    cursor: pointer;
+    background: #ff2020;
+    font-family: "Josefin Sans", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    padding: 30px 28px;
+  }
+}
+
+// ! Watch-area Start
+.watch-area {
+  padding-top: 200px;
+}
+
+.watch-area .watch-details {
+  h2 {
+    font-family: "Josefin Sans", sans-serif;
+    color: #000;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 40px;
+  }
+
+  p {
+    margin-bottom: 50px;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    color: #777;
+  }
+}
+
+.watch-area-p {
+  padding-bottom: 150px;
+}

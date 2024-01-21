@@ -1,0 +1,91 @@
+@media (min-width: 240px) and (max-width: 600px) {
+  .footer-bottom {
+    margin-top: 200px !important;
+  }
+  .footer-area{
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .footer-bottom{
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+
+#footer {
+  padding: 200px 0;
+}
+
+.single-footer-caption {
+  margin-bottom: 80px;
+  p {
+    font-family: "Roboto", sans-serif;
+    color: #868c98;
+    font-size: 14px;
+    margin-bottom: 50px;
+    line-height: 1.8;
+  }
+}
+
+.footer-logo {
+  margin-bottom: 40px;
+}
+
+.footer-tittle {
+  font-family: "Roboto", sans-serif;
+  h4 {
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 29px;
+    font-weight: 500;
+  }
+}
+
+.footer-area {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  height: 230px;
+
+  .cart {
+    width: 23%;
+
+    ul {
+      padding: 0 !important;
+
+      a {
+        display: block;
+        margin-bottom: 15px;
+        color: #868c98;
+        font-weight: 300;
+      }
+      a:hover {
+        color: #dc3545;
+        transition: all 0.3s;
+      }
+    }
+  }
+}
+
+.footer-bottom {
+  margin-top: 70px;
+
+  p {
+    font-family: "Roboto", sans-serif;
+    color: #888888;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 2;
+    margin-bottom: 20px;
+  }
+
+  a {
+    color: #ff2020;
+  }
+}
+
+.heart {
+  color: #ff2020;
+  font-size: 20px;
+  margin: 5px;
+}
